@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Para mi amor 💕</title>
+  <link rel="stylesheet" href="CSS/main.css">
+</head>
+
+<body class="not-loaded">
+  <!-- Pantalla de bloqueo -->
+  <div id="lockScreen">
+    <div class="heart-lock">❤️</div>
+    <p>Ingresa la fecha de nuestro aniversario 💕</p>
+
+    <div class="pin-inputs">
+      <input type="text" id="day" maxlength="2" placeholder="DD">
+      <input type="text" id="month" maxlength="2" placeholder="MM">
+      <input type="text" id="year" maxlength="4" placeholder="AAAA">
+    </div>
+
+    <button id="unlockBtn">Desbloquear</button>
+  </div>
+
+  <!-- Contenido principal oculto -->
+  <div id="mainContent" style="display:none;">
+    <!-- 🌌 Fondo con flores y estrellas -->
+    <div class="night"></div>
+
+    <div class="shooting-stars">
+      <div class="shooting-star"></div>
+      <div class="shooting-star"></div>
+      <div class="shooting-star"></div>
+      <div class="shooting-star"></div>
+      <div class="shooting-star"></div>
+      <div class="shooting-star"></div>
+      <div class="shooting-star"></div>
+      <div class="shooting-star"></div>
+    </div>
+
+    <div class="flowers">
+      <!-- Flor 1 -->
+      <div class="flower flower--1">
+        <div class="flower__leafs flower__leafs--1">
+          <div class="flower__leaf flower__leaf--1"></div>
+          <div class="flower__leaf flower__leaf--2"></div>
+          <div class="flower__leaf flower__leaf--3"></div>
+          <div class="flower__leaf flower__leaf--4"></div>
+          <div class="flower__leaf flower__leaf--5"></div>
+          <div class="flower__leaf flower__leaf--6"></div>
+          <div class="flower__center"></div>
+        </div>
+        <div class="flower__line">
+          <div class="flower__line__leaf flower__line__leaf--1"></div>
+          <div class="flower__line__leaf flower__line__leaf--2"></div>
+          <div class="flower__line__leaf flower__line__leaf--3"></div>
+          <div class="flower__line__leaf flower__line__leaf--4"></div>
+        </div>
+      </div>
+
+      <!-- Flor 2 -->
+      <div class="flower flower--2">
+        <div class="flower__leafs flower__leafs--2">
+          <div class="flower__leaf flower__leaf--1"></div>
+          <div class="flower__leaf flower__leaf--2"></div>
+          <div class="flower__leaf flower__leaf--3"></div>
+          <div class="flower__leaf flower__leaf--4"></div>
+          <div class="flower__leaf flower__leaf--5"></div>
+          <div class="flower__leaf flower__leaf--6"></div>
+          <div class="flower__center"></div>
+        </div>
+        <div class="flower__line">
+          <div class="flower__line__leaf flower__line__leaf--1"></div>
+          <div class="flower__line__leaf flower__line__leaf--2"></div>
+          <div class="flower__line__leaf flower__line__leaf--3"></div>
+          <div class="flower__line__leaf flower__line__leaf--4"></div>
+        </div>
+      </div>
+
+      <!-- Flor 3 -->
+      <div class="flower flower--3">
+        <div class="flower__leafs flower__leafs--3">
+          <div class="flower__leaf flower__leaf--1"></div>
+          <div class="flower__leaf flower__leaf--2"></div>
+          <div class="flower__leaf flower__leaf--3"></div>
+          <div class="flower__leaf flower__leaf--4"></div>
+          <div class="flower__leaf flower__leaf--5"></div>
+          <div class="flower__leaf flower__leaf--6"></div>
+          <div class="flower__center"></div>
+        </div>
+        <div class="flower__line">
+          <div class="flower__line__leaf flower__line__leaf--1"></div>
+          <div class="flower__line__leaf flower__line__leaf--2"></div>
+          <div class="flower__line__leaf flower__line__leaf--3"></div>
+          <div class="flower__line__leaf flower__line__leaf--4"></div>
+        </div>
+      </div>
+
+      <!-- Flor 4 -->
+      <div class="flower flower--4">
+        <div class="flower__leafs flower__leafs--4">
+          <div class="flower__leaf flower__leaf--1"></div>
+          <div class="flower__leaf flower__leaf--2"></div>
+          <div class="flower__leaf flower__leaf--3"></div>
+          <div class="flower__leaf flower__leaf--4"></div>
+          <div class="flower__leaf flower__leaf--5"></div>
+          <div class="flower__leaf flower__leaf--6"></div>
+          <div class="flower__center"></div>
+        </div>
+        <div class="flower__line">
+          <div class="flower__line__leaf flower__line__leaf--1"></div>
+          <div class="flower__line__leaf flower__line__leaf--2"></div>
+          <div class="flower__line__leaf flower__line__leaf--3"></div>
+          <div class="flower__line__leaf flower__line__leaf--4"></div>
+        </div>
+      </div>
+
+      <!-- Flor 5 -->
+      <div class="flower flower--5">
+        <div class="flower__leafs flower__leafs--5">
+          <div class="flower__leaf flower__leaf--1"></div>
+          <div class="flower__leaf flower__leaf--2"></div>
+          <div class="flower__leaf flower__leaf--3"></div>
+          <div class="flower__leaf flower__leaf--4"></div>
+          <div class="flower__leaf flower__leaf--5"></div>
+          <div class="flower__leaf flower__leaf--6"></div>
+          <div class="flower__center"></div>
+        </div>
+        <div class="flower__line">
+          <div class="flower__line__leaf flower__line__leaf--1"></div>
+          <div class="flower__line__leaf flower__line__leaf--2"></div>
+          <div class="flower__line__leaf flower__line__leaf--3"></div>
+          <div class="flower__line__leaf flower__line__leaf--4"></div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="ramo">
+      <img src="https://github.com/Baque2005/public-files/blob/main/2025/240ac6a013e67096cb3c12002d928aa3.png?raw=true"
+        alt="Ramo de flores">
+      <div class="montes">
+        <svg class="monte monte-izq" viewBox="0 0 120 60" width="120" height="60">
+          <path d="M0,60 Q30,10 60,60 Q90,30 120,60 Z" fill="#4a7c23" opacity="0.85" />
+          <path d="M10,60 Q35,25 60,60 Q80,40 110,60 Z" fill="#6b8e23" opacity="0.7" />
+        </svg>
+        <svg class="monte monte-der" viewBox="0 0 120 60" width="120" height="60">
+          <path d="M0,60 Q30,30 60,60 Q90,10 120,60 Z" fill="#4a7c23" opacity="0.85" />
+          <path d="M10,60 Q40,40 60,60 Q85,25 110,60 Z" fill="#8fcf5a" opacity="0.7" />
+        </svg>
+      </div>
+    </div>
+
+    <!-- 💌 Carta -->
+    <div class="sobre-container">
+      <div class="sobre" id="sobre">
+        <div class="cara frente"></div>
+        <div class="cara reverso">
+          <div class="carta">
+            <h2>💌 Mi amor</h2>
+            <p>
+              Mi amor,
+
+              Hoy quiero abrirte el corazón con toda la sinceridad del mundo.
+              Antes que nada, gracias. Gracias por estar a mi lado, por tu paciencia, por tu risa que me ilumina los
+              días y por el amor que me regalas incluso cuando no soy perfecto.
+
+              También quiero pedirte perdón. Sé que a veces te he hecho sufrir, y eso es algo que me duele
+              profundamente. No hay día que no me arrepienta de esos momentos. Ojalá pudiera borrarlos y dejar solo
+              recuerdos lindos, pero lo que sí puedo hacer es aprender, crecer y amarte mejor cada día.
+
+              Estoy infinitamente agradecido por cada instante contigo, por cada abrazo, cada mirada y cada palabra que
+              me has regalado. Eres lo mejor que me ha pasado, y no me canso de darle gracias a la vida por haberte
+              encontrado.
+
+              Sueño con un futuro juntos: con más viajes, con más risas, con una casa donde siempre haya paz y amor, con
+              mañanas a tu lado y noches en las que nos sintamos seguros en los brazos del otro. Quiero caminar de tu
+              mano hacia todo lo que venga, porque contigo todo se siente posible.
+
+              Te amo con todo mi ser, y este San Valentín no es solo un día más: es un recordatorio de la suerte inmensa
+              que tengo de tenerte en mi vida.
+
+              Con todo mi amor, Jefer ooo mejor dicho, tu futuro esposo :>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ⏳ Tiempo juntos -->
+    <div class="tiempo-juntos" id="tiempoJuntos" style="display:none;">
+      <h3>⏳ Nuestro tiempo juntos ❤️</h3>
+      <div class="contador">
+        <div class="box"><span id="years">0</span>
+          <p>Años</p>
+        </div>
+        <div class="box"><span id="months">0</span>
+          <p>Meses</p>
+        </div>
+        <div class="box"><span id="days">0</span>
+          <p>Días</p>
+        </div>
+        <div class="box"><span id="hours">0</span>
+          <p>Horas</p>
+        </div>
+        <div class="box"><span id="minutes">0</span>
+          <p>Minutos</p>
+        </div>
+        <div class="box"><span id="seconds">0</span>
+          <p>Segundos</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="JS/main.js"></script>
+</body>
+
+</html>
